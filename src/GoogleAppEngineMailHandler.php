@@ -3,11 +3,10 @@
  *
  */
 
-namespace GoogleAppEngine\Monolog\Handler;
+namespace Monolog\Handler;
 
 use Monolog\Formatter\HtmlFormatter;
 use Monolog\Logger;
-use Monolog\Handler\MailHandler;
 
 /**
  * SwiftMailerHandler uses Swift_Mailer to send the emails

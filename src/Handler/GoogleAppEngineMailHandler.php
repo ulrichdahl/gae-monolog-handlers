@@ -1,19 +1,10 @@
 <?php
-/*
- *
- */
-
 namespace UlrichDahl\Monolog\Handler;
 
 use Monolog\Formatter\HtmlFormatter;
 use Monolog\Handler\MailHandler;
 use Monolog\Logger;
 
-/**
- * SwiftMailerHandler uses Swift_Mailer to send the emails
- *
- * @author Gyula Sallai
- */
 class GoogleAppEngineMailHandler extends MailHandler
 {
 	private $to;

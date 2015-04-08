@@ -3,9 +3,10 @@
  *
  */
 
-namespace Monolog\Handler;
+namespace UlrichDahl\Monolog\Handler;
 
 use Monolog\Formatter\HtmlFormatter;
+use Monolog\Handler\MailHandler;
 use Monolog\Logger;
 
 /**

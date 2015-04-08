@@ -17,8 +17,6 @@
     ],
     "minimum-stability": "dev",
     "autoload": {
-        "psr-0": {
-            "Monolog\\Handler\\": "src/"
-        }
+        "psr-4": {"UlrichDahl\\Monolog\\": "src/"}
     }
 }

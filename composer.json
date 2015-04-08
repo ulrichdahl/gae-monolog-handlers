@@ -1,0 +1,24 @@
+{
+    "name": "ulrichdahl/gae-monolog-handlers",
+    "description": "Monolog Handlers for use in Google AppEngine",
+    "require": {
+        "php": ">=5.4.0",
+        "monolog/monolog": "<=1.13.1"
+    },
+    "require-dev": {
+        "jleagle/app-engine-stubs": "*"
+    },
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Ulrich Dahl",
+            "email": "ulrich.dahl@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "GoogleAppEngine//Monolog": "src/"
+        }
+    }
+}
